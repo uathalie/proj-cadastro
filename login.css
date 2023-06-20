@@ -1,0 +1,46 @@
+body{
+    background-color: #2B2A4C;
+    color: #fff;
+}
+h2{
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: center;
+}
+hr{
+    border-top: 1.7px dotted #e9be6a;
+    border-radius: 5px;
+}
+.form-control{
+    opacity: 70%;
+}
+.form-control:focus{
+    background-color: #f8e4b6;
+    opacity: 100%;
+}
+input[type='submit']{
+    color: #e9be6a;
+    background-color: #2B2A4C;
+    border: 2px dashed #e9be6a;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+input[type='submit']:hover{
+    color: #2B2A4C;
+    background-color: #e2a429;
+}
+a{
+    text-decoration: none;
+    color: #e9be6a;
+    padding: 7px;
+}
+a:hover{
+    color: #2B2A4C;
+    background-color: #e9be6a;
+    padding: 7px;
+    border-radius: 10px;
+}
+#cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
